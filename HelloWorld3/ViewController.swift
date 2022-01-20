@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var helloWorldLabel: UILabel!
+    @IBOutlet weak var inscriptionsButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        helloWorldLabel.text.
+        inscriptionsButton.layer.cornerRadius = 20
+        
     }
-
+    @IBAction func inscripnionPressButton() {
+    }
+    
 
 }
 
