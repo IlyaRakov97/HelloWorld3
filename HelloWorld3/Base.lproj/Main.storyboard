@@ -15,62 +15,77 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAD-9i-yxZ">
-                                <rect key="frame" x="29" y="588" width="363" height="48"/>
-                                <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="The inscription disappears">
-                                            <attributes>
-                                                <font key="NSFont" size="29" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="inscripnionPressButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="xWD-ku-19d"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello world !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1m6-Br-f13">
-                                <rect key="frame" x="107" y="150" width="201" height="46"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, world !" lineBreakMode="tailTruncation" baselineAdjustment="none" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Usa-if-0QK">
+                                <rect key="frame" x="94" y="165.5" width="227" height="50.5"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="42"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello world !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kE2-7I-WPv">
-                                <rect key="frame" x="107" y="150" width="201" height="46"/>
-                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                <color key="textColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5K7-DN-7vx">
+                                <rect key="frame" x="26" y="676" width="363" height="103"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAD-9i-yxZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="363" height="47.5"/>
+                                        <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="The inscription disappears">
+                                                    <attributes>
+                                                        <font key="NSFont" size="29" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="inscripnionPressButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="xWD-ku-19d"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmH-49-pn5">
+                                        <rect key="frame" x="0.0" y="55.5" width="363" height="47.5"/>
+                                        <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Delet text">
+                                                    <attributes>
+                                                        <font key="NSFont" size="29" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="deleteTextButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Y0-kj-mPW"/>
+                                            <action selector="inscripnionPressButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Za3-lp-zdm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="1m6-Br-f13" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kE2-7I-WPv" secondAttribute="leading" id="7em-BY-A0W"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kE2-7I-WPv" secondAttribute="trailing" constant="106" id="8b6-NU-h6e"/>
-                            <constraint firstItem="qAD-9i-yxZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="9gc-b9-EbH"/>
-                            <constraint firstItem="kE2-7I-WPv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="Ag7-49-y1z"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qAD-9i-yxZ" secondAttribute="bottom" constant="226" id="By8-lq-Jz9"/>
-                            <constraint firstItem="qAD-9i-yxZ" firstAttribute="leading" secondItem="kE2-7I-WPv" secondAttribute="trailing" constant="-279" id="Kxx-9U-iDU"/>
-                            <constraint firstItem="kE2-7I-WPv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="106" id="LyM-27-F3w"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1m6-Br-f13" secondAttribute="trailing" constant="106" id="X3v-KZ-2HH"/>
-                            <constraint firstItem="qAD-9i-yxZ" firstAttribute="top" secondItem="1m6-Br-f13" secondAttribute="bottom" constant="392" id="ZU8-4c-m6F"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qAD-9i-yxZ" secondAttribute="trailing" constant="22" id="opc-vn-KXj"/>
-                            <constraint firstItem="1m6-Br-f13" firstAttribute="baseline" secondItem="kE2-7I-WPv" secondAttribute="baseline" id="zo0-fM-woP"/>
+                            <constraint firstItem="5K7-DN-7vx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="9cX-Gh-b11"/>
+                            <constraint firstItem="Usa-if-0QK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="H2g-c2-itY"/>
+                            <constraint firstItem="5K7-DN-7vx" firstAttribute="top" secondItem="Usa-if-0QK" secondAttribute="bottom" constant="460" id="HbP-DU-Bbt"/>
+                            <constraint firstItem="Usa-if-0QK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="121.5" id="L7i-Yj-7aM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5K7-DN-7vx" secondAttribute="trailing" constant="25" id="iJg-u7-ume"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5K7-DN-7vx" secondAttribute="bottom" constant="83" id="jwK-ND-Ham"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Usa-if-0QK" secondAttribute="trailing" constant="93" id="oAW-ri-2Un"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="helloWorldLabel" destination="kE2-7I-WPv" id="FXl-sK-hO2"/>
+                        <outlet property="deleteTextLabel" destination="cmH-49-pn5" id="PeO-iv-uJF"/>
+                        <outlet property="helloWorldLabel" destination="Usa-if-0QK" id="wdN-ld-6fK"/>
                         <outlet property="inscriptionsButton" destination="qAD-9i-yxZ" id="8lJ-k3-I7o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="45" y="84"/>
+            <point key="canvasLocation" x="44.927536231884062" y="83.705357142857139"/>
         </scene>
     </scenes>
 </document>
